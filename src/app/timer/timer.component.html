@@ -1,0 +1,15 @@
+<div class="wrapper">
+	<div class="stopwatch">
+		<section class="stopwatch__display">
+			<div *ngIf="counter; else elseBlock" class="screen"> {{counter}} </div>
+			<ng-template #elseBlock> Press Start </ng-template>
+		</section>
+
+		<section class="stopwatch__controls">
+			<button class="timer-button btn" (click)="startTimer()">
+			{{ startText }}
+		</button>
+			<button class="timer-button btn" (click)="clearTimer()">Clear</button>
+		</section>
+	</div>
+</div>

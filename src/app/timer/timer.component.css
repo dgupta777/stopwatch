@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.btn {
+  background: #ff6347;
+  border-radius: 100px;
+  border: 0;
+  color: #f5fffa;
+  outline: 0;
+  padding: 10px 17px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.2em;
+  margin: 5px;
+}
+.btn:hover, .btn:active {
+  background: #ff6127;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.stopwatch {
+  align-items: center;
+  background: linear-gradient(to right bottom, #ff6347, #fe7756, #fc8867, #fa9978, #f7a88b);
+  box-shadow: 0 0 6px 3px #ff7f50;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+}
+
+.stopwatch__display {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  color: #f5fffa;
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.8em;
+}
+
+.stopwatch__controls {
+  align-self: flex-end;
+  display: flex;
+  margin-bottom: 200px;
+}

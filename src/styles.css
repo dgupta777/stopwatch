@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  color: #555;
+  font-size: 16px;
+  font-family: "Shadows Into Light", cursive;
+  text-rendering: optimizeLegibility;
+  height: 100vh;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #000000), color-stop(100%, #215769));
+    background-image: -moz-linear-gradient(#000000 60%, #215769 100%);
+    background-image: -webkit-linear-gradient(#000000 60%, #215769 100%);
+    background-image: linear-gradient(#000000 60%, #215769 100%);
+}
