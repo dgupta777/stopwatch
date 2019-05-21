@@ -3,10 +3,12 @@
     flex-wrap: wrap;
   }
 
-  .site-nav {
-    order: 2;
-    background: #333;
-    width: 100%;
+  .site-header img {
+    width: 60%;
+  }
+
+  .contact {
+    visibility: hidden;
   }
 }
 
@@ -17,16 +19,6 @@
   align-items: center;
   font-family: "Sintony", sans-serif;
   font-size: 1.2em;
-  letter-spacing: 0.15em;
-}
-
-.logo {
-  text-decoration: none;
-  color: white;
-  font-size: 0.9em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  padding: 10px;
 }
 
 .contact {
@@ -39,12 +31,12 @@
 .contact-details {
   text-align: center;
   margin-left: 10px;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #c0a672;
 }
 
 .contact-details a {
   text-decoration: none;
   color: #c0a672;
-  line-height: 1.3;
+  line-height: 1.1;
 }
